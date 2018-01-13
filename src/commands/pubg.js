@@ -18,11 +18,18 @@ module.exports = {
         rp({
             uri: url,
             headers: {
-                'User-Agent': 'Request-Promise'
+                'TRN-Api-Key': config.pubg_key || process.env.PUBG_KEY
             },
             json: true
         }).then(res => {
+            if (res.error)
+                message.reply(res.error)
+            else {
 
+            }
+        }).catch(err => {
+            console.log(err)
+            message.reply("This feature is currently unavailable.")
         })
     },
     min_params: 1
