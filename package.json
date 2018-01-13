@@ -1,0 +1,23 @@
+{
+  "name": "bluebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meldsza/BlueBot.git"
+  },
+  "author": "Melroy Dsouza (meldza@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meldsza/BlueBot/issues"
+  },
+  "homepage": "https://github.com/meldsza/BlueBot#readme"
+}
